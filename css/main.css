@@ -26,23 +26,71 @@ body {
   padding: 0;
 }
 
+.white-box {
+  background-color: #fff;
+  overflow: hidden;
+  padding-bottom: 3rem;
+  border-radius: 10px;
+}
+
 img {
   display: block;
   width: 100%;
 }
 
-figure {
+.fig {
+  display: block;
+  margin:0;
+  padding:0;
   position: relative;
+  background-color: #fff;
 }
 
-figcaption {
+.fig-cap {
+  font-family: serif;
   position: absolute;
-  background-color: rgba(255,255,255,0.3);
-  left: 2em;
-  right: 2em;
-  bottom:1em;
-  width: 100%;
+  background-color: rgba(51,51,51,0.4);
+  width:100%;
+  bottom:0;
   color: #fff;
+  padding:2em;
+  font-size:1em;
 }
 
+.steg {
+  margin-left: .75em;
+  margin-bottom: ;
+}
 
+.col-left {
+  float: left;
+  width: 30%;
+  margin-left: 1em;
+}
+
+.col-middle {
+  float: left;
+  width: 30%;
+  border-left: solid 1px #999999;
+  padding-left: 1em;
+}
+
+.col-right {
+  float: right;
+  width: 30%;
+  margin-right:1em;
+  border-left: solid 1px #999999;
+  padding-left: 1em;
+}
+
+.grey {
+  color:#999999;
+  text-transform: uppercase;
+  margin-bottom:0;
+  margin-top:0;
+  font-size:1em;
+}
+
+.black {
+  font-size: 1.25em;
+}
